@@ -8,7 +8,7 @@ public class App
     public static void main( String[] args )
     {
         JedisPool pool = null;
-        //asda
+        //asdazxcxz
         try {
             pool = RedisUtils.open("192.168.72.128", 6379);
             Jedis jedis = pool.getResource();
